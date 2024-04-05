@@ -153,7 +153,7 @@ const Body = ({
                     <FormItem>
                       <FormLabel>URL</FormLabel>
                       <FormControl>
-                        <Input placeholder="roomgpt.io" {...field} />
+                        <Input placeholder="https://animi.club" {...field} autoComplete="off" />
                       </FormControl>
                       <FormDescription>
                         This is what your QR code will link to.
